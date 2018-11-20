@@ -12,6 +12,7 @@
   "dependencies": {
     "@octokit/rest": "^14.0.9",
     "async": "^2.6.1",
-    "github": "^14.0.0"
+    "github": "^14.0.0",
+    "lodash": "^4.17.11"
   }
 }
