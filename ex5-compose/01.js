@@ -6,10 +6,11 @@ function addFive(num, callback) {
 
 function timesTen(num, callback) {
     callback(null, num * 10)
-} console.log(result)
+}
 
-var calcule = async.compose(addFive, timesTen);
+var calcule = async.compose(addFive, timesTen); //55
+var calcule = async.seq(addFive, timesTen); //100
 
 calcule(5, function (err, result) {
-
+    console.log(result)
 })
