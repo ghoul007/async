@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.6.1"
+    "@octokit/rest": "^14.0.9",
+    "async": "^2.6.1",
+    "github": "^14.0.0"
   }
 }
