@@ -8,7 +8,7 @@ var fctOne = function (callback) {
 }
 
 var fctTwo = function (callback) {
-        callback("eeor", null)
+        callback(null, 'Second')
 }
 
 var fctThree = function (callback) {

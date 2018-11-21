@@ -69,8 +69,12 @@ var task_2 = function (callback) {
 }
 
 var task_3 = function (callback) {
-    console.log('*********** function task3')
-    callback();
+
+    setTimeout(() => {
+        console.log('*********** function task3')
+        callback();
+
+    }, 3000)
 }
 
 var task_4 = function (callback) {
